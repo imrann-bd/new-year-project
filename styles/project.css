@@ -35,3 +35,24 @@ main{
     color: white;
     margin: 0;
 }
+/* offer section styles */
+.offer-section{
+    text-align: center;
+    margin: 120px 0px;
+}
+.offer-section h1 {
+    font-size: 88px;
+    font-weight: bold;
+    color: #ff0000;
+    margin: 0;
+}
+.offer-section h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #ff0000;
+}
+.offer-section h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+}

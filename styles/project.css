@@ -1,0 +1,147 @@
+*{ 
+    
+}
+
+
+/* fonts */
+
+
+.merriweather {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+header, main {
+    max-width: 1140px;
+    margin: 50px auto;
+}
+header {
+    background: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0.5), rgba(7, 2, 17, 0)),url(../images/Banner\ Image.png);
+    height: 600px;
+    background-size: cover;
+}
+.banner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.banner-content {
+    color: white;
+}
+
+.banner-content h2 {
+    font-size: 72px;
+    margin: 0;
+}
+/* dicount syles */
+.discoutn-container {
+      padding: 40px 20px;
+      position: relative;
+      text-align: center;
+      min-height: 100vh;
+}
+.dicount-content{
+    text-align: center;
+
+}
+
+.dicount-gift img {
+    position: absolute;
+    bottom: 150px;
+    left: 100px;
+    z-index: 1;
+    
+}
+.dicount-img img {
+    position: absolute;
+    right: 50px;
+    bottom: 350px;
+}
+.discount-red img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    margin: 120px 0px;
+}
+.dicount-content h3{
+    font-size: 24px;
+    font-weight: 500px;
+}
+.dicount-content h2 {
+    font-size: 72px;
+    font-weight: bold;
+    margin: 0;
+}
+.dicount-content p {
+    margin-bottom: 600px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.dis-red {
+    color: red;
+}
+/* protfolio styles */
+.items {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 30px 0px;
+}
+/* newsletter style  */
+.newsletter {
+    background-color: rgba(255, 0, 0, 0.05);
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.newsletter-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+.newsletter-content h2 {
+    font-size: 20px;
+    color: #070211;
+}
+.newsletter-from{
+    margin-top: 30px;
+}
+.newsletter-content input[type="email"]{
+    width: 56%;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid white;
+    padding-left: 20px;
+}
+.newsletter-content input[type="submit"]{
+    width: 20%;
+    height: 40px;
+    border-radius: 0px 20px 20px 0px;
+    outline: none;
+    background-color: red;
+    padding-left: 20px;
+    border: 1px solid red;
+    color: white;
+    margin-left: -70px;
+
+}
+.newsletter-from input{
+    box-sizing: border-box;
+}

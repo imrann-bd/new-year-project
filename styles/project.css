@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {}
 
 
@@ -192,4 +193,182 @@ footer {
 }
 .top-content-left p, .bottom p {
     font-size: 16px;
+=======
+/* googel fonts css */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.merriweather {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared css start*/
+
+.paragraph-dec {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+.span {
+    color: #ff0000;
+}
+/* shared css end*/
+
+
+main{
+    max-width: 1320px;
+    margin: 50px auto;
+}
+
+.banner {
+    background: linear-gradient(rgba(7, 2, 17, 1),rgba(7, 2, 17, 0.5),rgba(7, 2, 17, 0)),url(../images/Banner\ Image.png);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;  
+}
+.banner-container h3{
+    font-size: 32px;
+    color: white;
+}
+.banner-container h2{
+    font-size: 72px;
+    color: white;
+    margin: 0;
+}
+/* offer section styles */
+.offer-section{
+    text-align: center;
+    margin: 120px 0px;
+}
+.offer-section h1 {
+    font-size: 88px;
+    font-weight: bold;
+    color: #ff0000;
+    margin: 0;
+}
+.offer-section h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #ff0000;
+}
+.offer-section h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+}
+/* welcome section styles */
+.welcome-section {
+    background: linear-gradient(to right,rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)),url(../images/Vectorrr.png);
+    height: 600px;
+    border-radius: 16px;
+}
+.welcome-container {
+    padding: 126px 152px 298px 128px;
+    
+}
+.welcome-container h2 {
+    font-size: 64px;
+    color: #fff;
+    letter-spacing: 3px;
+
+}
+.welcome-container p {
+
+}
+.welcome-container a {
+     font-size: 20px;
+     font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 30px 0px 0px 20px;
+    text-transform: uppercase;
+}
+/* shediul section styles */
+.shediul-section {
+    
+}
+.shediul-section {
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0));
+    height: 480;
+    padding: 100px 385px;
+    margin: 110px 0px;
+    border-radius: 16px;
+}
+.shediul-content {
+    text-align: center;
+}
+.shediul-content h3 {
+    font-size: 32px;
+    font-size: 600;
+}
+.btn{
+    font-size: 20px;
+    font-size: bold;
+    background-color: red;
+    border-radius: 8px;
+    color: #fff;
+    padding: 16px 32px;
+    border: none;
+    margin-top: 20px;
+}
+/* comming soon styles */
+.comming-soon {
+
+}
+.commingsoon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comming-left h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF0000;
+    margin: 0;
+}
+.comming-left h3 {
+    font-size: 48px;
+    color: #070211;
+}
+.comming-left p {
+    font-size: 20px;
+    color: #070211;
+    line-height: 32px;
+}
+
+.comming-left, .comming-right {
+    width: 30%;
+}
+.comming-middle {
+    
+    
+}
+.comming-middle img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    border: 10px solid red;
+    padding: 6px;
+}
+.comming-right h3 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+}
+.comming-right p {
+    font-size: 20px;
+    color: #070211;
+    line-height: 32px;
+>>>>>>> 0d7513e5cb4857f461a27ed9e8a019b776f04348
 }

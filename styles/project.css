@@ -47,8 +47,10 @@ main {
 }
 /* offer sectin syles */
 .offer {
-    text-align: center;
     margin-top: 80px;
+}
+.offer-container {
+    text-align: center;
 }
 .offer-container h2 {
     color: red;

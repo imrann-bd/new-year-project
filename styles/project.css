@@ -45,7 +45,25 @@ main {
     font-size: 72px;
     margin: 0;
 }
-
+/* offer sectin syles */
+.offer {
+    text-align: center;
+    margin-top: 80px;
+}
+.offer-container h2 {
+    color: red;
+    font-size: 38;
+    font-weight: bold;
+    
+}
+.offer-container h4 {
+    color: red;
+    font-size: 18px;
+    margin: 0;
+}
+.offer-container h3 {
+    font-size: 39px;
+}
 /* dicount syles */
 .discoutn-container {
     padding: 40px 20px;

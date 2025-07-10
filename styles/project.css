@@ -25,6 +25,10 @@ main {
     margin: 50px auto;
 }
 
+.span-color {
+    color: #FF0000;
+}
+
 .banner {
     background: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0.5), rgba(7, 2, 17, 0)), url(../images/Banner\ Image.png);
     height: 600px;
@@ -66,6 +70,93 @@ main {
 .offer-container h3 {
     font-size: 39px;
 }
+/* welcome section */
+.welcome {
+    background: linear-gradient(to right,rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)),url(../images/Vectorrr.png);
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.welcome-contetn {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 126px 120px 126px;
+    align-items: center;
+}
+.welcome-content-left {
+    color: white;
+}
+.welcome-content-left h3 {
+    font-size: 64px;
+    font-weight: bold;
+    margin: 0;
+}
+.welcome-content-left  p{
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.welcome-content-left  a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+/* welcome styles */
+.join-now {
+height: 490px;
+background: linear-gradient(rgb(247, 203, 138),rgba(255, 0, 0, 0));
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+border-radius: 16px;
+margin: 120px 0px;
+}
+
+.join-page-content a {
+    color: white;
+}
+.join-page-content button{
+    padding: 14px 25px;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+/* comming soon page styles */
+.comming-soon-page {
+    height: 460px;
+}
+.comming-soon-page-content {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.comming-soon-left {
+    width: 30%;
+}
+.comming-soon-left h4,.comming-soon-right p{
+    font-size: 20px;
+}
+.comming-soon-left h3{
+    font-size: 48px;
+    margin: 0;
+}
+.comming-soon-middle img {
+    padding: 20px;
+    border: 10px solid red;
+    border-radius: 50%;
+}
+.comming-soon-right {
+    width: 30%;
+}
 /* dicount syles */
 .discoutn-container {
     padding: 40px 20px;
@@ -105,6 +196,7 @@ main {
 .dicount-content h3 {
     font-size: 24px;
     font-weight: 500px;
+    margin: 0;
 }
 
 .dicount-content h2 {
@@ -117,6 +209,7 @@ main {
     margin-bottom: 600px;
     font-size: 20px;
     font-weight: 500;
+    margin: 0;
 }
 
 .dis-red {

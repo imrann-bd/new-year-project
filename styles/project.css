@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-* {}
+
 
 
 /* fonts */
@@ -26,19 +25,17 @@ main {
     margin: 50px auto;
 }
 
-header {
+.banner {
     background: linear-gradient(rgba(7, 2, 17, 1), rgba(7, 2, 17, 0.5), rgba(7, 2, 17, 0)), url(../images/Banner\ Image.png);
     height: 600px;
-    background-size: cover;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+    border-radius: 17px;
 }
 
-.banner {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
+
 
 .banner-content {
     color: white;
@@ -193,7 +190,7 @@ footer {
 }
 .top-content-left p, .bottom p {
     font-size: 16px;
-=======
+
 /* googel fonts css */
 .inter {
   font-family: "Inter", sans-serif;
@@ -370,5 +367,5 @@ main{
     font-size: 20px;
     color: #070211;
     line-height: 32px;
->>>>>>> 0d7513e5cb4857f461a27ed9e8a019b776f04348
+
 }
